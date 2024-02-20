@@ -1,19 +1,19 @@
 'use strict';
 
-var _merge = require('lodash/merge.js');
-var _isObject = require('lodash/isObject.js');
-var _get = require('lodash/get.js');
-var eachDeep = require('./eachDeep.js');
-var condenseDeep = require('./condenseDeep.js');
-var _clone = require('lodash/clone.js');
-var _cloneDeep = require('lodash/cloneDeep.js');
-var _each = require('lodash/each.js');
-var _eachRight = require('lodash/eachRight.js');
-var _has = require('lodash/has.js');
-var _set = require('lodash/set.js');
-var _unset = require('lodash/unset.js');
-var _isPlainObject = require('lodash/isPlainObject.js');
-var _iteratee = require('lodash/iteratee.js');
+import _merge from 'lodash/merge.js';
+import _isObject from 'lodash/isObject.js';
+import _get from 'lodash/get.js';
+import eachDeep from './eachDeep.js';
+import condenseDeep from './condenseDeep.js';
+import _clone from 'lodash/clone.js';
+import _cloneDeep from 'lodash/cloneDeep.js';
+import _each from 'lodash/each.js';
+import _eachRight from 'lodash/eachRight.js';
+import _has from 'lodash/has.js';
+import _set from 'lodash/set.js';
+import _unset from 'lodash/unset.js';
+import _isPlainObject from 'lodash/isPlainObject.js';
+import _iteratee from 'lodash/iteratee.js';
 
 var deps = _merge(
   {
@@ -34,4 +34,4 @@ var deps = _merge(
   condenseDeep
 );
 
-module.exports = deps;
+export default deps;

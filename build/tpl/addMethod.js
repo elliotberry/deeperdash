@@ -1,6 +1,6 @@
-var arstr = require('../arstr');
+import arstr from '../arstr';
 
-module.exports = function (methodName) {
+export default function (methodName) {
   let capMethodName = arstr.upFirst(methodName);
   return `/* build/tpl */
 import getMixOrPatchIn from './private/getMixOrPatchIn.js';

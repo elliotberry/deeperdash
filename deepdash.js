@@ -1,26 +1,26 @@
 'use strict';
 
-var addCondense = require('./addCondense.js');
-var addCondenseDeep = require('./addCondenseDeep.js');
-var addEachDeep = require('./addEachDeep.js');
-var addExists = require('./addExists.js');
-var addFilterDeep = require('./addFilterDeep.js');
-var addFindDeep = require('./addFindDeep.js');
-var addFindPathDeep = require('./addFindPathDeep.js');
-var addFindValueDeep = require('./addFindValueDeep.js');
-var addForEachDeep = require('./addForEachDeep.js');
-var addIndex = require('./addIndex.js');
-var addKeysDeep = require('./addKeysDeep.js');
-var addMapDeep = require('./addMapDeep.js');
-var addMapKeysDeep = require('./addMapKeysDeep.js');
-var addMapValuesDeep = require('./addMapValuesDeep.js');
-var addOmitDeep = require('./addOmitDeep.js');
-var addPathMatches = require('./addPathMatches.js');
-var addPathToString = require('./addPathToString.js');
-var addPaths = require('./addPaths.js');
-var addPickDeep = require('./addPickDeep.js');
-var addReduceDeep = require('./addReduceDeep.js');
-var addSomeDeep = require('./addSomeDeep.js');
+import addCondense from './addCondense.js';
+import addCondenseDeep from './addCondenseDeep.js';
+import addEachDeep from './addEachDeep.js';
+import addExists from './addExists.js';
+import addFilterDeep from './addFilterDeep.js';
+import addFindDeep from './addFindDeep.js';
+import addFindPathDeep from './addFindPathDeep.js';
+import addFindValueDeep from './addFindValueDeep.js';
+import addForEachDeep from './addForEachDeep.js';
+import addIndex from './addIndex.js';
+import addKeysDeep from './addKeysDeep.js';
+import addMapDeep from './addMapDeep.js';
+import addMapKeysDeep from './addMapKeysDeep.js';
+import addMapValuesDeep from './addMapValuesDeep.js';
+import addOmitDeep from './addOmitDeep.js';
+import addPathMatches from './addPathMatches.js';
+import addPathToString from './addPathToString.js';
+import addPaths from './addPaths.js';
+import addPickDeep from './addPickDeep.js';
+import addReduceDeep from './addReduceDeep.js';
+import addSomeDeep from './addSomeDeep.js';
 
 /* build/tpl */
 
@@ -50,4 +50,4 @@ function apply(_) {
   return _;
 }
 
-module.exports = apply;
+export default apply;

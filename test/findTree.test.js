@@ -1,10 +1,11 @@
 'use strict';
 
-const chai = require('chai'),
-  // should = chai.should(),
-  expect = chai.expect;
+import chai from 'chai';
 
-const asserttype = require('chai-asserttype');
+const // should = chai.should(),
+expect = chai.expect;
+
+import asserttype from 'chai-asserttype';
 chai.use(asserttype);
 
 var {
@@ -16,7 +17,7 @@ var {
   deeperCommentsCircular,
   badChildren,
 } = require('./object')();
-var { validateIteration, forLodashes } = require('./common.js');
+import {validateIteration, forLodashes} from './common.js';
 
 forLodashes(['findDeep'], (_) => {
   it('findTree by field', () => {

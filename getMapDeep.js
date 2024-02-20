@@ -1,6 +1,6 @@
 'use strict';
 
-var getReduceDeep = require('./getReduceDeep.js');
+import getReduceDeep from './getReduceDeep.js';
 
 function getMapDeep(_) {
   var reduceDeep = getReduceDeep(_);
@@ -20,4 +20,4 @@ function getMapDeep(_) {
   return mapDeep;
 }
 
-module.exports = getMapDeep;
+export default getMapDeep;

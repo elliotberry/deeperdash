@@ -2,4 +2,4 @@
 
 var findIndex = Array.prototype.findIndex;
 
-module.exports = findIndex;
+export default findIndex;

@@ -1,11 +1,11 @@
 'use strict';
 
-var _isString = require('lodash/isString.js');
-var _reduce = require('lodash/reduce.js');
+import _isString from 'lodash/isString.js';
+import _reduce from 'lodash/reduce.js';
 
 var deps = {
   isString: _isString,
   reduce: _reduce,
 };
 
-module.exports = deps;
+export default deps;

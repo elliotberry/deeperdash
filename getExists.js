@@ -12,4 +12,4 @@ function getExists(_) {
 
 getExists.notChainable = true;
 
-module.exports = getExists;
+export default getExists;

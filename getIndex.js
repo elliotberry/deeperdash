@@ -1,6 +1,6 @@
 'use strict';
 
-var getEachDeep = require('./getEachDeep.js');
+import getEachDeep from './getEachDeep.js';
 
 function getIndex(_) {
   var eachDeep = getEachDeep(_);
@@ -43,4 +43,4 @@ function getIndex(_) {
   return index;
 }
 
-module.exports = getIndex;
+export default getIndex;

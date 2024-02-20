@@ -1,9 +1,9 @@
 'use strict';
 
-var getExists = require('./getExists.js');
-var exists$1 = require('./deps/exists.js');
+import getExists from './getExists.js';
+import exists$1 from './deps/exists.js';
 
 /* build/tpl */
 var exists = getExists(exists$1);
 
-module.exports = exists;
+export default exists;

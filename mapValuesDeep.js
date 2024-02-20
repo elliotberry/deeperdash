@@ -1,9 +1,9 @@
 'use strict';
 
-var getMapValuesDeep = require('./getMapValuesDeep.js');
-var mapValuesDeep$1 = require('./deps/mapValuesDeep.js');
+import getMapValuesDeep from './getMapValuesDeep.js';
+import mapValuesDeep$1 from './deps/mapValuesDeep.js';
 
 /* build/tpl */
 var mapValuesDeep = getMapValuesDeep(mapValuesDeep$1);
 
-module.exports = mapValuesDeep;
+export default mapValuesDeep;

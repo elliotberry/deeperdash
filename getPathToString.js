@@ -54,4 +54,4 @@ function getPathToString(_) {
 
 getPathToString.notChainable = true;
 
-module.exports = getPathToString;
+export default getPathToString;

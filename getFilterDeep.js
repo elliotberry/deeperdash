@@ -1,8 +1,8 @@
 'use strict';
 
-var getCondense = require('./getCondense.js');
-var isObject = require('./private/isObject.js');
-var getEachDeep = require('./getEachDeep.js');
+import getCondense from './getCondense.js';
+import isObject from './private/isObject.js';
+import getEachDeep from './getEachDeep.js';
 
 function getFilterDeep(_) {
   var eachDeep = getEachDeep(_);
@@ -260,4 +260,4 @@ function getFilterDeep(_) {
   }
 }
 
-module.exports = getFilterDeep;
+export default getFilterDeep;

@@ -16,4 +16,4 @@ function getMixOrPatchIn(_) {
   return mixOrPatchIn;
 }
 
-module.exports = getMixOrPatchIn;
+export default getMixOrPatchIn;

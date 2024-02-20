@@ -1,9 +1,9 @@
 'use strict';
 
-var getPickDeep = require('./getPickDeep.js');
-var pickDeep$1 = require('./deps/pickDeep.js');
+import getPickDeep from './getPickDeep.js';
+import pickDeep$1 from './deps/pickDeep.js';
 
 /* build/tpl */
 var pickDeep = getPickDeep(pickDeep$1);
 
-module.exports = pickDeep;
+export default pickDeep;

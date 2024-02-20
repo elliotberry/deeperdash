@@ -1,7 +1,7 @@
 'use strict';
 
-var getMixOrPatchIn = require('./private/getMixOrPatchIn.js');
-var getKeysDeep = require('./getKeysDeep.js');
+import getMixOrPatchIn from './private/getMixOrPatchIn.js';
+import getKeysDeep from './getKeysDeep.js';
 
 /* build/tpl */
 
@@ -10,4 +10,4 @@ function addKeysDeep(_) {
   return mixOrPatchIn('keysDeep', getKeysDeep(_), !getKeysDeep.notChainable);
 }
 
-module.exports = addKeysDeep;
+export default addKeysDeep;

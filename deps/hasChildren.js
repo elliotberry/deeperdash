@@ -1,8 +1,8 @@
 'use strict';
 
-var _isEmpty = require('lodash/isEmpty');
-var _get = require('lodash/get');
-var _some = require('lodash/some');
+import _isEmpty from 'lodash/isEmpty';
+import _get from 'lodash/get';
+import _some from 'lodash/some';
 
 var deps = {
   some: _some,
@@ -10,4 +10,4 @@ var deps = {
   isEmpty: _isEmpty,
 };
 
-module.exports = deps;
+export default deps;

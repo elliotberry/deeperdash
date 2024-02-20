@@ -1,9 +1,9 @@
 'use strict';
 
-var getPaths = require('./getPaths.js');
+import getPaths from './getPaths.js';
 
 function getKeysDeep(_) {
   return getPaths(_);
 }
 
-module.exports = getKeysDeep;
+export default getKeysDeep;

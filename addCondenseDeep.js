@@ -1,7 +1,7 @@
 'use strict';
 
-var getMixOrPatchIn = require('./private/getMixOrPatchIn.js');
-var getCondenseDeep = require('./getCondenseDeep.js');
+import getMixOrPatchIn from './private/getMixOrPatchIn.js';
+import getCondenseDeep from './getCondenseDeep.js';
 
 /* build/tpl */
 
@@ -10,4 +10,4 @@ function addCondenseDeep(_) {
   return mixOrPatchIn('condenseDeep', getCondenseDeep(_), !getCondenseDeep.notChainable);
 }
 
-module.exports = addCondenseDeep;
+export default addCondenseDeep;

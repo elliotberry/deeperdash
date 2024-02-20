@@ -1,7 +1,7 @@
 'use strict';
 
 var { demo, circular, children } = require('./object')();
-var { forLodashes, it, expect } = require('./common.js');
+import {forLodashes, it, expect} from './common.js';
 var hrstart = process.hrtime();
 forLodashes(['index'], (_) => {
   it('no mutation', () => {

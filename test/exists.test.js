@@ -1,12 +1,11 @@
 'use strict';
 
-const chai = require('chai'),
-  expect = chai.expect;
-
-const asserttype = require('chai-asserttype');
+import chai from 'chai';
+const expect = chai.expect;
+import asserttype from 'chai-asserttype';
 chai.use(asserttype);
 
-var { forLodashes } = require('./common.js');
+import {forLodashes} from './common.js';
 
 forLodashes('exists', (_) => {
   it('slot 0', () => {

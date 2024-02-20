@@ -2,7 +2,7 @@
 
 var { demo } = require('./object')();
 
-var { forLodashes, it, expect } = require('./common.js');
+import {forLodashes, it, expect} from './common.js';
 var hrstart = process.hrtime();
 forLodashes(['eachDeep'], (_) => {
   it('Count nodes', () => {

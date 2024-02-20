@@ -1,6 +1,6 @@
 'use strict';
 
-var getEachDeep = require('./getEachDeep.js');
+import getEachDeep from './getEachDeep.js';
 
 function getPaths(_) {
   var eachDeep = getEachDeep(_);
@@ -43,4 +43,4 @@ function getPaths(_) {
   return paths;
 }
 
-module.exports = getPaths;
+export default getPaths;

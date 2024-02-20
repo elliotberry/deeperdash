@@ -1,8 +1,8 @@
 'use strict';
 
-var getCondense = require('./getCondense.js');
+import getCondense from './getCondense.js';
 
 /* build/tpl */
 var condense = getCondense();
 
-module.exports = condense;
+export default condense;

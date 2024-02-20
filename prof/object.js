@@ -1,4 +1,3 @@
 'use strict';
-const obj = require('lodash');
-
-module.exports = require('../test/object');
+import obj from 'lodash';
+export default require('../test/object');

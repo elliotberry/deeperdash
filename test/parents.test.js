@@ -1,12 +1,12 @@
 'use strict';
 
-const chai = require('chai'),
-  should = chai.should(),
-  expect = chai.expect,
-  assert = require('assert');
+import chai from 'chai';
+const should = chai.should();
+const expect = chai.expect;
+import assert from 'assert';
 var { demo } = require('./object')();
 
-var { forLodashes } = require('./common.js');
+import {forLodashes} from './common.js';
 forLodashes(['eachDeep'], (_) => {
   it('Count nodes', () => {
     _.eachDeep(demo, (value, key, parent, ctx) => {

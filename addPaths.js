@@ -1,7 +1,7 @@
 'use strict';
 
-var getMixOrPatchIn = require('./private/getMixOrPatchIn.js');
-var getPaths = require('./getPaths.js');
+import getMixOrPatchIn from './private/getMixOrPatchIn.js';
+import getPaths from './getPaths.js';
 
 /* build/tpl */
 
@@ -10,4 +10,4 @@ function addPaths(_) {
   return mixOrPatchIn('paths', getPaths(_), !getPaths.notChainable);
 }
 
-module.exports = addPaths;
+export default addPaths;

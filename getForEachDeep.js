@@ -1,9 +1,9 @@
 'use strict';
 
-var getEachDeep = require('./getEachDeep.js');
+import getEachDeep from './getEachDeep.js';
 
 function getForEachDeep(_) {
   return getEachDeep(_);
 }
 
-module.exports = getForEachDeep;
+export default getForEachDeep;

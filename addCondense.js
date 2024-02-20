@@ -1,7 +1,7 @@
 'use strict';
 
-var getMixOrPatchIn = require('./private/getMixOrPatchIn.js');
-var getCondense = require('./getCondense.js');
+import getMixOrPatchIn from './private/getMixOrPatchIn.js';
+import getCondense from './getCondense.js';
 
 /* build/tpl */
 
@@ -10,4 +10,4 @@ function addCondense(_) {
   return mixOrPatchIn('condense', getCondense(), !getCondense.notChainable);
 }
 
-module.exports = addCondense;
+export default addCondense;

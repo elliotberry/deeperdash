@@ -1,9 +1,9 @@
 'use strict';
 
-var getIndex = require('./getIndex.js');
-var index$1 = require('./deps/index.js');
+import getIndex from './getIndex.js';
+import index$1 from './deps/index.js';
 
 /* build/tpl */
 var index = getIndex(index$1);
 
-module.exports = index;
+export default index;

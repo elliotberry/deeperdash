@@ -1,9 +1,9 @@
 'use strict';
 
-var condense = require('./condense.js');
-var _merge = require('lodash/merge.js');
-var forArray = require('./own/forArray.js');
-var eachDeep = require('./eachDeep.js');
+import condense from './condense.js';
+import _merge from 'lodash/merge.js';
+import forArray from './own/forArray.js';
+import eachDeep from './eachDeep.js';
 
 var deps = _merge(
   {
@@ -14,4 +14,4 @@ var deps = _merge(
   eachDeep
 );
 
-module.exports = deps;
+export default deps;

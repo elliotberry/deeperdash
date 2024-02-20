@@ -1,7 +1,7 @@
 'use strict';
 
-var getMixOrPatchIn = require('./private/getMixOrPatchIn.js');
-var getExists = require('./getExists.js');
+import getMixOrPatchIn from './private/getMixOrPatchIn.js';
+import getExists from './getExists.js';
 
 /* build/tpl */
 
@@ -10,4 +10,4 @@ function addExists(_) {
   return mixOrPatchIn('exists', getExists(_), !getExists.notChainable);
 }
 
-module.exports = addExists;
+export default addExists;

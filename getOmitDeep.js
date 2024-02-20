@@ -1,7 +1,7 @@
 'use strict';
 
-var getFilterDeep = require('./getFilterDeep.js');
-var getPathMatches = require('./getPathMatches.js');
+import getFilterDeep from './getFilterDeep.js';
+import getPathMatches from './getPathMatches.js';
 
 function getOmitDeep(_) {
   var pathMatches = getPathMatches(_);
@@ -49,4 +49,4 @@ function getOmitDeep(_) {
   return omitDeep;
 }
 
-module.exports = getOmitDeep;
+export default getOmitDeep;

@@ -1,7 +1,7 @@
 'use strict';
 
-var getMixOrPatchIn = require('./private/getMixOrPatchIn.js');
-var getPathToString = require('./getPathToString.js');
+import getMixOrPatchIn from './private/getMixOrPatchIn.js';
+import getPathToString from './getPathToString.js';
 
 /* build/tpl */
 
@@ -10,4 +10,4 @@ function addPathToString(_) {
   return mixOrPatchIn('pathToString', getPathToString(_), !getPathToString.notChainable);
 }
 
-module.exports = addPathToString;
+export default addPathToString;

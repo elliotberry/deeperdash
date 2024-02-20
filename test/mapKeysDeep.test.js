@@ -1,14 +1,14 @@
 'use strict';
 
-const chai = require('chai'),
-  should = chai.should(),
-  expect = chai.expect,
-  assert = require('assert');
-const asserttype = require('chai-asserttype');
+import chai from 'chai';
+const should = chai.should();
+const expect = chai.expect;
+import assert from 'assert';
+import asserttype from 'chai-asserttype';
 chai.use(asserttype);
-const getObject = require('./object');
+import getObject from './object';
 var { demo, children, circular } = getObject();
-var { validateIteration, forLodashes } = require('./common.js');
+import {validateIteration, forLodashes} from './common.js';
 
 forLodashes(['mapKeysDeep', 'paths'], (_) => {
   it('defaults', () => {

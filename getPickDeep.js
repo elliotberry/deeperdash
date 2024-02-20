@@ -1,6 +1,6 @@
 'use strict';
 
-var getOmitDeep = require('./getOmitDeep.js');
+import getOmitDeep from './getOmitDeep.js';
 
 function getPickDeep(_) {
   var omitDeep = getOmitDeep(_);
@@ -17,4 +17,4 @@ function getPickDeep(_) {
   return pickDeep;
 }
 
-module.exports = getPickDeep;
+export default getPickDeep;

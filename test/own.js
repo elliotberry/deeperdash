@@ -1,10 +1,10 @@
-const chai = require('chai'),
-  should = chai.should(),
-  expect = chai.expect,
-  assert = require('assert');
-const asserttype = require('chai-asserttype');
+import chai from 'chai';
+const should = chai.should();
+const expect = chai.expect;
+import assert from 'assert';
+import asserttype from 'chai-asserttype';
 chai.use(asserttype);
-const forArray = require('../deps/own/forArray');
+import forArray from '../deps/own/forArray';
 describe('self-inplemented dependency fulfillment', () => {
   it('forArray', () => {
     let arr = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];

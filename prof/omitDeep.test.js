@@ -2,7 +2,7 @@
 
 var { demo, circular } = require('./object')();
 
-var { forLodashes, it, expect } = require('./common.js');
+import {forLodashes, it, expect} from './common.js';
 var hrstart = process.hrtime();
 forLodashes(['omitDeep'], (_) => {
   it('no mutation', () => {

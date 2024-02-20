@@ -1,16 +1,20 @@
 'use strict';
+
 /* eslint-disable no-sparse-arrays */
 
-const chai = require('chai'),
-  // should = chai.should(),
-  expect = chai.expect;
+import chai from 'chai';
+
+const // should = chai.should(),
+expect = chai.expect;
+
 // assert = require('assert'),
 
-const asserttype = require('chai-asserttype');
+import asserttype from 'chai-asserttype';
+
 chai.use(asserttype);
 var { circular } = require('./object')();
 
-var { forLodashes } = require('./common.js');
+import {forLodashes} from './common.js';
 
 forLodashes('condense', (_) => {
   it('slot 0', () => {

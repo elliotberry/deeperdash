@@ -1,7 +1,7 @@
 'use strict';
 
-var getPathToString = require('./getPathToString.js');
-var getEachDeep = require('./getEachDeep.js');
+import getPathToString from './getPathToString.js';
+import getEachDeep from './getEachDeep.js';
 
 function getMapKeysDeep(_) {
   var eachDeep = getEachDeep(_);
@@ -87,4 +87,4 @@ function getMapKeysDeep(_) {
   return mapKeysDeep;
 }
 
-module.exports = getMapKeysDeep;
+export default getMapKeysDeep;

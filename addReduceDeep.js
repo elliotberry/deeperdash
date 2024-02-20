@@ -1,7 +1,7 @@
 'use strict';
 
-var getMixOrPatchIn = require('./private/getMixOrPatchIn.js');
-var getReduceDeep = require('./getReduceDeep.js');
+import getMixOrPatchIn from './private/getMixOrPatchIn.js';
+import getReduceDeep from './getReduceDeep.js';
 
 /* build/tpl */
 
@@ -10,4 +10,4 @@ function addReduceDeep(_) {
   return mixOrPatchIn('reduceDeep', getReduceDeep(_), !getReduceDeep.notChainable);
 }
 
-module.exports = addReduceDeep;
+export default addReduceDeep;

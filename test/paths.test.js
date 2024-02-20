@@ -1,15 +1,16 @@
 'use strict';
 
-const chai = require('chai'),
-  // should = chai.should(),
-  expect = chai.expect;
+import chai from 'chai';
 
-const asserttype = require('chai-asserttype');
+const // should = chai.should(),
+expect = chai.expect;
+
+import asserttype from 'chai-asserttype';
 chai.use(asserttype);
 
 var { demo, circular, children } = require('./object')();
 
-var { forLodashes } = require('./common.js');
+import {forLodashes} from './common.js';
 forLodashes(['paths', 'keysDeep', 'index'], (_) => {
   it('no mutation', () => {
     let orig = _.cloneDeep(demo);

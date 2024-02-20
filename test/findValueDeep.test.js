@@ -1,11 +1,10 @@
 'use strict';
 
-const chai = require('chai'),
-  expect = chai.expect;
-
-const asserttype = require('chai-asserttype');
+import chai from 'chai';
+const expect = chai.expect;
+import asserttype from 'chai-asserttype';
 chai.use(asserttype);
-var { validateIteration, forLodashes } = require('./common.js');
+import {validateIteration, forLodashes} from './common.js';
 
 var { demo, circular } = require('./object')();
 

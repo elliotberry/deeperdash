@@ -1,7 +1,7 @@
 'use strict';
 
-var getMixOrPatchIn = require('./private/getMixOrPatchIn.js');
-var getFindValueDeep = require('./getFindValueDeep.js');
+import getMixOrPatchIn from './private/getMixOrPatchIn.js';
+import getFindValueDeep from './getFindValueDeep.js';
 
 /* build/tpl */
 
@@ -10,4 +10,4 @@ function addFindValueDeep(_) {
   return mixOrPatchIn('findValueDeep', getFindValueDeep(_), !getFindValueDeep.notChainable);
 }
 
-module.exports = addFindValueDeep;
+export default addFindValueDeep;

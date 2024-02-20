@@ -1,6 +1,6 @@
 'use strict';
 
-var getFindDeep = require('./getFindDeep.js');
+import getFindDeep from './getFindDeep.js';
 
 function getSomeDeep(_) {
   var findDeep = getFindDeep(_);
@@ -10,4 +10,4 @@ function getSomeDeep(_) {
   return someDeep;
 }
 
-module.exports = getSomeDeep;
+export default getSomeDeep;

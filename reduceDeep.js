@@ -1,9 +1,9 @@
 'use strict';
 
-var getReduceDeep = require('./getReduceDeep.js');
-var eachDeep = require('./deps/eachDeep.js');
+import getReduceDeep from './getReduceDeep.js';
+import eachDeep from './deps/eachDeep.js';
 
 /* build/tpl */
 var reduceDeep = getReduceDeep(eachDeep);
 
-module.exports = reduceDeep;
+export default reduceDeep;

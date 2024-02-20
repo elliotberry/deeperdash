@@ -1,7 +1,7 @@
 'use strict';
 
-var getPathToString = require('../getPathToString.js');
-var isObject = require('./isObject.js');
+import getPathToString from '../getPathToString.js';
+import isObject from './isObject.js';
 
 var rxVarName = /^[a-zA-Z_$]+([\w_$]*)$/;
 var rxQuot = /"/g;
@@ -362,4 +362,4 @@ function describeValue(value, ownPropertiesOnly) {
   return res;
 }
 
-module.exports = getIterate;
+export default getIterate;

@@ -1,4 +1,4 @@
-module.exports = function(methodsList) {
+export default function(methodsList) {
   let strImport = '';
   let strInterface = '';
   methodsList.forEach((methodName) => {

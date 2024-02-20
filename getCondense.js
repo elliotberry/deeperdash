@@ -18,4 +18,4 @@ function getCondense(_) {
   return condense;
 }
 
-module.exports = getCondense;
+export default getCondense;

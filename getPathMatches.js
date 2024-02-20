@@ -1,6 +1,6 @@
 'use strict';
 
-var getPathToString = require('./getPathToString.js');
+import getPathToString from './getPathToString.js';
 
 function getPathMatches(_) {
   var pathToString = getPathToString(_);
@@ -54,4 +54,4 @@ function getPathMatches(_) {
 
 getPathMatches.notChainable = true;
 
-module.exports = getPathMatches;
+export default getPathMatches;

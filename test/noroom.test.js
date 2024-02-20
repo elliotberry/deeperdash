@@ -1,13 +1,15 @@
 'use strict';
 
-const chai = require('chai'),
-  // should = chai.should(),
-  expect = chai.expect;
-// assert = require('assert'),
-var _ = require('lodash').runInContext(),
-  deep = require('../deepdash');
+import chai from 'chai';
 
-const asserttype = require('chai-asserttype');
+const // should = chai.should(),
+expect = chai.expect;
+
+// assert = require('assert'),
+var _ = require('lodash').runInContext();
+
+import deep from '../deepdash';
+import asserttype from 'chai-asserttype';
 chai.use(asserttype);
 describe('Methods exist already', () => {
   it('check them', () => {

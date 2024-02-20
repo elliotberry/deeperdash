@@ -1,7 +1,7 @@
 'use strict';
 
-var getMixOrPatchIn = require('./private/getMixOrPatchIn.js');
-var getFindPathDeep = require('./getFindPathDeep.js');
+import getMixOrPatchIn from './private/getMixOrPatchIn.js';
+import getFindPathDeep from './getFindPathDeep.js';
 
 /* build/tpl */
 
@@ -10,4 +10,4 @@ function addFindPathDeep(_) {
   return mixOrPatchIn('findPathDeep', getFindPathDeep(_), !getFindPathDeep.notChainable);
 }
 
-module.exports = addFindPathDeep;
+export default addFindPathDeep;

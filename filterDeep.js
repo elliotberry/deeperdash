@@ -1,9 +1,9 @@
 'use strict';
 
-var getFilterDeep = require('./getFilterDeep.js');
-var filterDeep$1 = require('./deps/filterDeep.js');
+import getFilterDeep from './getFilterDeep.js';
+import filterDeep$1 from './deps/filterDeep.js';
 
 /* build/tpl */
 var filterDeep = getFilterDeep(filterDeep$1);
 
-module.exports = filterDeep;
+export default filterDeep;

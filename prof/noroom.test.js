@@ -1,9 +1,10 @@
 'use strict';
 
 // assert = require('assert'),
-var _ = require('lodash').runInContext(),
-  deep = require('../deepdash');
-var { it, expect } = require('./common.js');
+var _ = require('lodash').runInContext();
+
+import deep from '../deepdash';
+import {it, expect} from './common.js';
 
 var hrstart = process.hrtime();
 it('check them', () => {

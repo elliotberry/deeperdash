@@ -1,11 +1,11 @@
 'use strict';
 
-var _merge = require('lodash/merge.js');
-var _isObject = require('lodash/isObject.js');
-var eachDeep = require('./eachDeep.js');
-var _clone = require('lodash/clone.js');
-var _set = require('lodash/set.js');
-var _iteratee = require('lodash/iteratee.js');
+import _merge from 'lodash/merge.js';
+import _isObject from 'lodash/isObject.js';
+import eachDeep from './eachDeep.js';
+import _clone from 'lodash/clone.js';
+import _set from 'lodash/set.js';
+import _iteratee from 'lodash/iteratee.js';
 
 var deps = _merge(
   {
@@ -17,4 +17,4 @@ var deps = _merge(
   eachDeep
 );
 
-module.exports = deps;
+export default deps;

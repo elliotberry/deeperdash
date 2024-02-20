@@ -1,7 +1,7 @@
 'use strict';
 
-var getMixOrPatchIn = require('./private/getMixOrPatchIn.js');
-var getIndex = require('./getIndex.js');
+import getMixOrPatchIn from './private/getMixOrPatchIn.js';
+import getIndex from './getIndex.js';
 
 /* build/tpl */
 
@@ -10,4 +10,4 @@ function addIndex(_) {
   return mixOrPatchIn('index', getIndex(_), !getIndex.notChainable);
 }
 
-module.exports = addIndex;
+export default addIndex;

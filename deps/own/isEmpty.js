@@ -1,6 +1,6 @@
 'use strict';
 
-var isEmpty = require('lodash/isEmpty');
+import isEmpty from 'lodash/isEmpty';
 
 /*import isArray from './isArray';
 import isObject from './isObject';
@@ -27,4 +27,4 @@ export default (value) => {
 };
 */
 
-module.exports = isEmpty;
+export default isEmpty;

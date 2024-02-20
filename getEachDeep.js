@@ -1,6 +1,6 @@
 'use strict';
 
-var getIterate = require('./private/getIterate.js');
+import getIterate from './private/getIterate.js';
 
 function getEachDeep(_) {
   var iterate = getIterate(_);
@@ -48,4 +48,4 @@ function getEachDeep(_) {
   return eachDeep;
 }
 
-module.exports = getEachDeep;
+export default getEachDeep;

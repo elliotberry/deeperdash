@@ -1,6 +1,6 @@
 'use strict';
 
-var { forLodashes, it, expect } = require('./common.js');
+import {forLodashes, it, expect} from './common.js';
 var hrstart = process.hrtime();
 forLodashes(['pathMatches'], (_) => {
   it('field', () => {

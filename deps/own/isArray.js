@@ -2,4 +2,4 @@
 
 var _isArray = Array.isArray;
 
-module.exports = _isArray;
+export default _isArray;

@@ -1,4 +1,4 @@
-const pathToString = require('../pathToString');
+import pathToString from '../pathToString';
 
 function makerndstr(length) {
   var result = '';

@@ -1,7 +1,7 @@
 'use strict';
 
-var getMixOrPatchIn = require('./private/getMixOrPatchIn.js');
-var getEachDeep = require('./getEachDeep.js');
+import getMixOrPatchIn from './private/getMixOrPatchIn.js';
+import getEachDeep from './getEachDeep.js';
 
 /* build/tpl */
 
@@ -10,4 +10,4 @@ function addEachDeep(_) {
   return mixOrPatchIn('eachDeep', getEachDeep(_), !getEachDeep.notChainable);
 }
 
-module.exports = addEachDeep;
+export default addEachDeep;

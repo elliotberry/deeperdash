@@ -1,7 +1,7 @@
 'use strict';
 
 var { demo, circular, social } = require('./object')();
-var { validateIteration, forLodashes, it, expect } = require('./common.js');
+import {validateIteration, forLodashes, it, expect} from './common.js';
 var hrstart = process.hrtime();
 forLodashes(['reduceDeep'], (_) => {
   it('defaults', () => {

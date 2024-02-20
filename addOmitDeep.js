@@ -1,7 +1,7 @@
 'use strict';
 
-var getMixOrPatchIn = require('./private/getMixOrPatchIn.js');
-var getOmitDeep = require('./getOmitDeep.js');
+import getMixOrPatchIn from './private/getMixOrPatchIn.js';
+import getOmitDeep from './getOmitDeep.js';
 
 /* build/tpl */
 
@@ -10,4 +10,4 @@ function addOmitDeep(_) {
   return mixOrPatchIn('omitDeep', getOmitDeep(_), !getOmitDeep.notChainable);
 }
 
-module.exports = addOmitDeep;
+export default addOmitDeep;

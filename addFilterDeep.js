@@ -1,7 +1,7 @@
 'use strict';
 
-var getMixOrPatchIn = require('./private/getMixOrPatchIn.js');
-var getFilterDeep = require('./getFilterDeep.js');
+import getMixOrPatchIn from './private/getMixOrPatchIn.js';
+import getFilterDeep from './getFilterDeep.js';
 
 /* build/tpl */
 
@@ -10,4 +10,4 @@ function addFilterDeep(_) {
   return mixOrPatchIn('filterDeep', getFilterDeep(_), !getFilterDeep.notChainable);
 }
 
-module.exports = addFilterDeep;
+export default addFilterDeep;

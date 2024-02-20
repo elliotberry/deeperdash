@@ -1,6 +1,7 @@
 'use strict';
-const _ = require('lodash');
-module.exports = () => {
+import _ from 'lodash';
+
+export default () => {
   const obj = {
     Node,
     demo: {

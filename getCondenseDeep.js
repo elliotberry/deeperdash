@@ -1,7 +1,7 @@
 'use strict';
 
-var getCondense = require('./getCondense.js');
-var getEachDeep = require('./getEachDeep.js');
+import getCondense from './getCondense.js';
+import getEachDeep from './getEachDeep.js';
 
 function getCondenseDeep(_) {
   var eachDeep = getEachDeep(_);
@@ -34,4 +34,4 @@ function getCondenseDeep(_) {
   return condenseDeep;
 }
 
-module.exports = getCondenseDeep;
+export default getCondenseDeep;

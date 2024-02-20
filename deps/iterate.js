@@ -1,10 +1,10 @@
 'use strict';
 
-var _merge = require('lodash/merge.js');
-var _isObject = require('lodash/isObject.js');
-var _isEmpty = require('lodash/isEmpty.js');
-var _get = require('lodash/get.js');
-var pathToString = require('./pathToString.js');
+import _merge from 'lodash/merge.js';
+import _isObject from 'lodash/isObject.js';
+import _isEmpty from 'lodash/isEmpty.js';
+import _get from 'lodash/get.js';
+import pathToString from './pathToString.js';
 
 var deps = _merge(
   {
@@ -16,4 +16,4 @@ var deps = _merge(
   // hasChildrenDeps
 );
 
-module.exports = deps;
+export default deps;

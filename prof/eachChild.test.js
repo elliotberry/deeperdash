@@ -1,4 +1,4 @@
-var { validateIteration, forLodashes, it, expect } = require('./common.js');
+import {validateIteration, forLodashes, it, expect} from './common.js';
 
 var {
   singleRoot,

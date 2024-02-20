@@ -1,6 +1,6 @@
 const lodash = require('lodash').runInContext();
 
-let standalone = require('../standalone');
+import standalone from '../standalone';
 // if (standalone.eachDeep) {
 //   console.log('standalone has eachDeep!!!');
 // } else {
@@ -10,7 +10,7 @@ let standalone = require('../standalone');
 standalone = lodash.merge({}, lodash.runInContext(), standalone);
 standalone.v = 'standalone';
 
-module.exports = {
+export default {
   forLodashes: (methods, test, title) => {
     const lodashes = [standalone];
     // console.log('standalone:', standalone.filterDeep);

@@ -1,9 +1,9 @@
 'use strict';
 
-var getForEachDeep = require('./getForEachDeep.js');
-var eachDeep = require('./deps/eachDeep.js');
+import getForEachDeep from './getForEachDeep.js';
+import eachDeep from './deps/eachDeep.js';
 
 /* build/tpl */
 var forEachDeep = getForEachDeep(eachDeep);
 
-module.exports = forEachDeep;
+export default forEachDeep;

@@ -1,13 +1,13 @@
 'use strict';
 
-const chai = require('chai'),
-  should = chai.should(),
-  expect = chai.expect,
-  assert = require('assert');
-const asserttype = require('chai-asserttype');
+import chai from 'chai';
+const should = chai.should();
+const expect = chai.expect;
+import assert from 'assert';
+import asserttype from 'chai-asserttype';
 chai.use(asserttype);
 var { demo, circular, social } = require('./object')();
-var { validateIteration, forLodashes } = require('./common.js');
+import {validateIteration, forLodashes} from './common.js';
 
 forLodashes(['reduceDeep'], (_) => {
   it('defaults', () => {

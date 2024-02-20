@@ -1,8 +1,8 @@
 'use strict';
 
-var _merge = require('lodash/merge.js');
-var omitDeep = require('./omitDeep.js');
+import _merge from 'lodash/merge.js';
+import omitDeep from './omitDeep.js';
 
 var deps = _merge({ merge: _merge }, omitDeep);
 
-module.exports = deps;
+export default deps;

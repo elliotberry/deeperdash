@@ -1,13 +1,14 @@
 'use strict';
 
-const chai = require('chai'),
-  // should = chai.should(),
-  expect = chai.expect;
+import chai from 'chai';
 
-const asserttype = require('chai-asserttype');
+const // should = chai.should(),
+expect = chai.expect;
+
+import asserttype from 'chai-asserttype';
 chai.use(asserttype);
 
-var { forLodashes } = require('./common.js');
+import {forLodashes} from './common.js';
 forLodashes(['pathMatches'], (_) => {
   it('field', () => {
     expect(_.pathMatches('test[0]', '[0]')).to.deep.equal(['0']);

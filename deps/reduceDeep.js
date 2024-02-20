@@ -1,7 +1,4 @@
 'use strict';
 
-var eachDeep = require('./eachDeep.js');
-
-
-
-module.exports = eachDeep;
+import eachDeep from './eachDeep.js';
+export default eachDeep;

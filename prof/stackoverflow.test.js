@@ -2,7 +2,7 @@
 
 var { demo, circular } = require('./object')();
 
-var { forLodashes, it, expect } = require('./common.js');
+import {forLodashes, it, expect} from './common.js';
 var hrstart = process.hrtime();
 forLodashes(['eachDeep', 'filterDeep'], (_) => {
   // https://stackoverflow.com/questions/41610948/lodash-find-deep-in-array-of-object

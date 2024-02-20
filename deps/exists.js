@@ -1,8 +1,8 @@
 'use strict';
 
-var _toPath = require('lodash/toPath.js');
-var _get = require('lodash/get.js');
-var _clone = require('lodash/clone.js');
+import _toPath from 'lodash/toPath.js';
+import _get from 'lodash/get.js';
+import _clone from 'lodash/clone.js';
 
 var deps = {
   clone: _clone,
@@ -10,4 +10,4 @@ var deps = {
   get: _get,
 };
 
-module.exports = deps;
+export default deps;

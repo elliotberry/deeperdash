@@ -1,6 +1,6 @@
 const lodash = require('lodash').runInContext();
 
-let standalone = require('../standalone');
+import standalone from '../standalone';
 // if (standalone.eachDeep) {
 //   console.log('standalone has eachDeep!!!');
 // } else {
@@ -15,10 +15,10 @@ delete deepdashAsAnObj.mixin;
 delete deepdashAsAnObj.chain;
 deepdashAsAnObj.v = 'object cherry-pick';
 
-const deepdash = require('../deepdash');
+import deepdash from '../deepdash';
 const _ = deepdash(lodash.runInContext());
 
-module.exports = {
+export default {
   forLodashes: (methods, test, title) => {
     if (_.isString(methods)) {
       methods = [methods];

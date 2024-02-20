@@ -1,7 +1,4 @@
 'use strict';
 
-var findDeep = require('./findDeep.js');
-
-
-
-module.exports = findDeep;
+import findDeep from './findDeep.js';
+export default findDeep;

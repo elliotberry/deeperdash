@@ -7,4 +7,4 @@ function forArray(arr, iteratee) {
   return arr;
 }
 
-module.exports = forArray;
+export default forArray;

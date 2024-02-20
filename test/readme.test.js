@@ -1,11 +1,10 @@
 'use strict';
 
-const chai = require('chai'),
-  should = chai.should(),
-  expect = chai.expect,
-  assert = require('assert');
-
-var { forLodashes } = require('./common.js');
+import chai from 'chai';
+const should = chai.should();
+const expect = chai.expect;
+import assert from 'assert';
+import {forLodashes} from './common.js';
 forLodashes(
   [
     'eachDeep',

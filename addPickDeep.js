@@ -1,7 +1,7 @@
 'use strict';
 
-var getMixOrPatchIn = require('./private/getMixOrPatchIn.js');
-var getPickDeep = require('./getPickDeep.js');
+import getMixOrPatchIn from './private/getMixOrPatchIn.js';
+import getPickDeep from './getPickDeep.js';
 
 /* build/tpl */
 
@@ -10,4 +10,4 @@ function addPickDeep(_) {
   return mixOrPatchIn('pickDeep', getPickDeep(_), !getPickDeep.notChainable);
 }
 
-module.exports = addPickDeep;
+export default addPickDeep;

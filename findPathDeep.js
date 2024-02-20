@@ -1,9 +1,9 @@
 'use strict';
 
-var getFindPathDeep = require('./getFindPathDeep.js');
-var findDeep = require('./deps/findDeep.js');
+import getFindPathDeep from './getFindPathDeep.js';
+import findDeep from './deps/findDeep.js';
 
 /* build/tpl */
 var findPathDeep = getFindPathDeep(findDeep);
 
-module.exports = findPathDeep;
+export default findPathDeep;

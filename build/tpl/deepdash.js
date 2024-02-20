@@ -1,6 +1,6 @@
-var arstr = require('../arstr');
+import arstr from '../arstr';
 
-module.exports = function (methodsList) {
+export default function (methodsList) {
   let strImport = '';
   let strExport = '';
   methodsList.forEach((methodName) => {

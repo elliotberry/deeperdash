@@ -1,7 +1,7 @@
 'use strict';
 
-var getMixOrPatchIn = require('./private/getMixOrPatchIn.js');
-var getMapDeep = require('./getMapDeep.js');
+import getMixOrPatchIn from './private/getMixOrPatchIn.js';
+import getMapDeep from './getMapDeep.js';
 
 /* build/tpl */
 
@@ -10,4 +10,4 @@ function addMapDeep(_) {
   return mixOrPatchIn('mapDeep', getMapDeep(_), !getMapDeep.notChainable);
 }
 
-module.exports = addMapDeep;
+export default addMapDeep;

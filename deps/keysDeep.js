@@ -1,7 +1,4 @@
 'use strict';
 
-var paths = require('./paths.js');
-
-
-
-module.exports = paths;
+import paths from './paths.js';
+export default paths;

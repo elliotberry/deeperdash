@@ -1,10 +1,10 @@
 'use strict';
 
-var _merge = require('lodash/merge.js');
-var _identity = require('lodash/identity.js');
-var _isString = require('lodash/isString.js');
-var _toPath = require('lodash/toPath.js');
-var iterate = require('./iterate.js');
+import _merge from 'lodash/merge.js';
+import _identity from 'lodash/identity.js';
+import _isString from 'lodash/isString.js';
+import _toPath from 'lodash/toPath.js';
+import iterate from './iterate.js';
 
 var deps = _merge(
   {
@@ -16,4 +16,4 @@ var deps = _merge(
   iterate
 );
 
-module.exports = deps;
+export default deps;

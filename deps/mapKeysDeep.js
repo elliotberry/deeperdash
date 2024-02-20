@@ -1,10 +1,10 @@
 'use strict';
 
-var _merge = require('lodash/merge.js');
-var _cloneDeep = require('lodash/cloneDeep.js');
-var _has = require('lodash/has.js');
-var _unset = require('lodash/unset.js');
-var mapValuesDeep = require('./mapValuesDeep.js');
+import _merge from 'lodash/merge.js';
+import _cloneDeep from 'lodash/cloneDeep.js';
+import _has from 'lodash/has.js';
+import _unset from 'lodash/unset.js';
+import mapValuesDeep from './mapValuesDeep.js';
 
 var deps = _merge(
   {
@@ -15,4 +15,4 @@ var deps = _merge(
   mapValuesDeep
 );
 
-module.exports = deps;
+export default deps;

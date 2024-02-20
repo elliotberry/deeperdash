@@ -1,4 +1,4 @@
-module.exports = function (methodsList) {
+export default function (methodsList) {
   return methodsList.reduce(
     (res, methodName) => {
       res['./' + methodName] = {

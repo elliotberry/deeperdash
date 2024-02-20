@@ -1,9 +1,9 @@
 'use strict';
 
-var getMapKeysDeep = require('./getMapKeysDeep.js');
-var mapKeysDeep$1 = require('./deps/mapKeysDeep.js');
+import getMapKeysDeep from './getMapKeysDeep.js';
+import mapKeysDeep$1 from './deps/mapKeysDeep.js';
 
 /* build/tpl */
 var mapKeysDeep = getMapKeysDeep(mapKeysDeep$1);
 
-module.exports = mapKeysDeep;
+export default mapKeysDeep;

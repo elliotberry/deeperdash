@@ -1,9 +1,9 @@
 'use strict';
 
-var getFindValueDeep = require('./getFindValueDeep.js');
-var findDeep = require('./deps/findDeep.js');
+import getFindValueDeep from './getFindValueDeep.js';
+import findDeep from './deps/findDeep.js';
 
 /* build/tpl */
 var findValueDeep = getFindValueDeep(findDeep);
 
-module.exports = findValueDeep;
+export default findValueDeep;

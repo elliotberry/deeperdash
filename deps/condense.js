@@ -2,4 +2,4 @@
 
 var deps = {};
 
-module.exports = deps;
+export default deps;
