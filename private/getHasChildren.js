@@ -1,5 +1,4 @@
-// 'use strict';
-
+// 
 // function getHasChildren(_) {
 //   function hasChildren(obj, childrenPath) {
 //     return _.some(childrenPath, function (cp) {

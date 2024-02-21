@@ -1,4 +1,3 @@
-'use strict';
 
 import condense from './condense.js';
 import _merge from 'lodash/merge.js';

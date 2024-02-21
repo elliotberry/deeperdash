@@ -1,4 +1,3 @@
-'use strict';
 
 function isObject(value) {
   var type = typeof value;

@@ -1,4 +1,3 @@
-'use strict';
 
 import _toPath from 'lodash/toPath.js';
 import _get from 'lodash/get.js';

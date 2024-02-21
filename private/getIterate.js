@@ -1,4 +1,3 @@
-'use strict';
 
 import getPathToString from '../getPathToString.js';
 import isObject from './isObject.js';

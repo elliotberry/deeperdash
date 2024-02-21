@@ -1,4 +1,3 @@
-'use strict';
 
 function forArray(arr, iteratee) {
   for (var i = 0; i < arr.length; i++) {

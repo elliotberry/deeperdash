@@ -1,4 +1,3 @@
-'use strict';
 
 import _isEmpty from 'lodash/isEmpty';
 import _get from 'lodash/get';

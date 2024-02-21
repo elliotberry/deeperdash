@@ -418,8 +418,6 @@
     "snyk": "^1.437.3"
   },
   "dependencies": {
-    "lodash": "^4.17.21",
-    "lodash-es": "^4.17.21"
-  },
-  "snyk": true
+    "lodash": "^4.17.21"
+  }
 }

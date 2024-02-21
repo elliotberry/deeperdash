@@ -1,4 +1,3 @@
-'use strict';
 
 import _isString from 'lodash/isString.js';
 import _reduce from 'lodash/reduce.js';

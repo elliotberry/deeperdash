@@ -1,4 +1,3 @@
-'use strict';
 
 import _merge from 'lodash/merge.js';
 import _cloneDeep from 'lodash/cloneDeep.js';

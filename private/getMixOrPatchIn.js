@@ -1,4 +1,3 @@
-'use strict';
 
 function getMixOrPatchIn(_) {
   function mixOrPatchIn(name, method, chain) {

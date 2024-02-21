@@ -1,4 +1,3 @@
-'use strict';
 
 import _merge from 'lodash/merge.js';
 import _isString from 'lodash/isString.js';

@@ -1,4 +1,3 @@
-'use strict';
 
 import isEmpty from 'lodash/isEmpty';
 
